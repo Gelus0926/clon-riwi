@@ -1,0 +1,208 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+img{
+    display: flex;
+    margin-left: 10rem;
+}
+
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 4rem;
+    width: 12rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: #6B5CFF;
+    background-color: #6B5CFF;
+    color: #FFF;
+    font-size: 16px ;
+    margin-top: -0.5rem;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+
+button:hover{
+    background-color: #7F7D96;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: #302E49;
+}
+
+a:hover{
+    color: #7F7D96;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 5.5rem;
+    font-weight: 900;
+    color: #302e49;
+    line-height: 5rem;
+}
+
+p{
+    color: #7F7D96;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-top: 1rem;
+}
+
+img{
+    margin-right: 20rem;
+    border-radius: 2rem;
+}
+
+.flag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bandera{
+    display: flex;
+    flex-direction: row;
+    border-radius: 0;
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1.8rem;
+    margin-left: -7rem;
+}
+
+.mensaje{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.mensaje p{
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.comunidad{
+    margin-top: 4rem;
+}
+
+h2{
+    text-align: center;
+    color: #302e49;
+}
+
+.seccion_comunidad{
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+.cards img{
+    margin-left: 20rem;
+}
+
+.estudiantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+}
+.empresas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 25rem;
+    text-align: center;
+}
+
+.aliados{
+    background-color: #9595a5;
+    color: #302E49;
+    border-radius: 0.8rem;
+    width: 19rem;
+}
+
+.btn-estudiantes{
+    color: #302E49;
+    background-color: white;
+    border: #302E49 1px solid;
+    align-items: center;
+}
+.btn-estudiantes:hover{
+    color: white;
+    background-color: #6b5cff;
+    border: #6b5cff 1px solid;
+    align-items: center;
+}
+
+.botones{
+    background-color: white;
+    border: #302e49 solid 0.3rem;
+    width: 14rem;
+    padding: 2rem;
+    color: #302E49;
+    font-size: 2rem bold;
+
+}
